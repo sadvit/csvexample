@@ -1,0 +1,4 @@
+sequence_name|sequence_next_hi_value
+"product"|3
+"customer"|15
+"sale"|4

@@ -1,0 +1,15 @@
+/target
+/.classpath
+/.project
+/.settings
+/tomcat.*
+/.idea
+/*.iml
+/*.ipr
+/*.iws
+/*.*~
+/images
+*.*~
+/prototypes
+bower_components/
+lib/

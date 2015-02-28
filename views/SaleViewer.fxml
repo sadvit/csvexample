@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="editPane" prefHeight="222.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sadvit.lab6.ui.viewer.SalePresenter">
+	<children>
+		<Label layoutX="10.0" layoutY="20.0" text="Customer:">
+			<font>
+				<Font name="Times New Roman" size="14.0" />
+			</font>
+		</Label>
+		<Label layoutX="14.0" layoutY="52.0" text="Product:">
+			<font>
+				<Font name="Times New Roman" size="14.0" />
+			</font>
+		</Label>
+		<Label layoutX="19.0" layoutY="87.0" text="Date:">
+			<font>
+				<Font name="Times New Roman" size="14.0" />
+			</font>
+		</Label>
+		<TextField fx:id="count" layoutX="76.0" layoutY="117.0" prefHeight="7.0" prefWidth="149.0" />
+		<Label layoutX="15.0" layoutY="121.0" text="Count:">
+			<font>
+				<Font name="Times New Roman" size="14.0" />
+			</font>
+		</Label>
+		<TextField fx:id="seat" layoutX="76.0" layoutY="150.0" prefHeight="7.0" prefWidth="149.0" />
+		<Label layoutX="20.0" layoutY="154.0" text="Seat:">
+			<font>
+				<Font name="Times New Roman" size="14.0" />
+			</font>
+		</Label>
+		<DatePicker fx:id="date" layoutX="75.0" layoutY="83.0" />
+      <ComboBox fx:id="customerBox" onAction="#customerBoxHandler" layoutX="76.0" layoutY="16.0" prefWidth="150.0" />
+      <ComboBox fx:id="productBox" onAction="#productBoxHandler" layoutX="76.0" layoutY="48.0" prefWidth="150.0" />
+	</children>
+</AnchorPane>

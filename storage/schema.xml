@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema>
+  <table name="hibernate_sequences.txt">
+    <column name="sequence_name" size="255" type="VARCHAR"/>
+    <column name="sequence_next_hi_value" type="INTEGER"/>
+  </table>
+</schema>
