@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane fx:id="editPane" prefHeight="222.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sadvit.lab6.ui.viewer.SalePresenter">
+<AnchorPane fx:id="editPane" prefHeight="222.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sadvit.exam.ui.viewer.SalePresenter">
 	<children>
 		<Label layoutX="10.0" layoutY="20.0" text="Customer:">
 			<font>

@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.control.*?>
 
-<BorderPane fx:id="borderPane" prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sadvit.lab6.ui.mvp.contenteditor.ContentEditorPresenter">
+<BorderPane fx:id="borderPane" prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sadvit.exam.ui.mvp.contenteditor.ContentEditorPresenter">
 	<bottom>
 		<GridPane minHeight="50.0" BorderPane.alignment="CENTER">
 			<columnConstraints>

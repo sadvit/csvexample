@@ -5,7 +5,7 @@
 
 <AnchorPane fx:id="anchorPane" prefHeight="160.0" prefWidth="100.0"
 	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
-	fx:controller="com.sadvit.lab6.ui.mvp.contentviewer.ContentViewerPresenter">
+	fx:controller="com.sadvit.exam.ui.mvp.contentviewer.ContentViewerPresenter">
 	<children>
 		<TableView fx:id="tableViewer" prefHeight="200.0" prefWidth="200.0"
 			AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
