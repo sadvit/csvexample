@@ -1,0 +1,1 @@
+Example application for managing simple database stored in CSV files. CRUD operations communicate with HiberanteTemplate using StelsCSV JDBC. GUI is written in JavaFX based on MVP pattern. MVP components wiring implemented with a help of presenters, which are registered in Spring Context. Presenters loading from FXML with a help of standart JavaFX loader.
