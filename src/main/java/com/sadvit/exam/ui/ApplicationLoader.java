@@ -6,8 +6,11 @@ import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
+import org.apache.log4j.PropertyConfigurator;
 
 public class ApplicationLoader extends Application {
+
+    private static final String LOG_PROPERTY_PATH = "log4j.properties";
 	
 	private BasePresenter basePresenter = Context.getBean(BasePresenter.class);
 
@@ -22,6 +25,7 @@ public class ApplicationLoader extends Application {
 	}
 
 	public static void main(String[] args) {
+        PropertyConfigurator.configure(LOG_PROPERTY_PATH);
 		launch(args);
 	}
 }
